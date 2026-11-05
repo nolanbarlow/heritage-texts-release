@@ -1,0 +1,6 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Heritage Texts setup</title>
+<style>body{font-family:sans-serif;text-align:center;padding:2em}a.b{display:inline-block;padding:1em 2em;background:#2a6;color:#fff;border-radius:8px;text-decoration:none;font-size:1.2em}</style></head>
+<body><h2>Opening Heritage Texts…</h2><p>If nothing happens, tap the button.</p><p><a class="b" id="go" href="#">Open Heritage Texts</a></p>
+<p id="err" style="color:#a00"></p>
+<script>var q=location.hash.replace(/^#/,'');if(q){var u='heritagetexts://setup?'+q;document.getElementById('go').href=u;location.href=u;}else{document.getElementById('err').textContent='This link is missing its setup code.';}</script>
+</body></html>
